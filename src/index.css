@@ -11,3 +11,34 @@ body {
   align-items: center;
   display: flex;
 }
+
+.header,
+.balance,
+.exchange,
+.deposit,
+.total,
+.default {
+  margin-top: 0.5rem;
+}
+
+h2,
+p {
+  margin-bottom: 0.3rem;
+}
+
+.options {
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+#text,
+input {
+  padding: 3px;
+  border-radius: 6px;
+}

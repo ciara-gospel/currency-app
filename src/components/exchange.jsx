@@ -14,6 +14,7 @@ export default function Exchange () {
         </div>
         <div className="exchange">
             <h2>Exchange Currency</h2>
+            <div className="options">
             <select name="texte" id="text">
                 <option value="">USD</option>
                 <option value="">EUR</option>
@@ -26,9 +27,11 @@ export default function Exchange () {
                 <option value="">XAF</option>
             </select>
             <button className="btn">Exchange</button>
+            </div>
         </div>
         <div className="deposit">
             <h2>Deposit</h2>
+            <div className="options">
             <select name="texte" id="text">
                 <option value="">USD</option>
                 <option value="">EUR</option>
@@ -36,6 +39,7 @@ export default function Exchange () {
             </select>
             <input type="number" id="enter" className="input" placeholder=""></input>
             <button className="btn">Deposit</button>
+            </div>
         </div>
         <div className="total">
         <h2>Total Balance</h2>
